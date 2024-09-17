@@ -3,3 +3,12 @@ form {
     margin-left: auto;
     margin-right: auto;
   }
+
+legend {
+    color: blue;
+    padding:  0.2em 0.5em;
+}
+
+input, textarea {
+  background-color: #9de6a1;
+}
