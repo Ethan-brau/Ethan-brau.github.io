@@ -1,0 +1,106 @@
+body {
+  background:url(background.png);
+  height:auto;
+  width:auto;
+  background-size: contain;
+  background-repeat: repeat;
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  font-size: 25px;
+  text-align: center;
+  margin: auto;
+
+} 
+
+a {
+text-decoration: none;  
+outline: none;
+}
+
+
+h1 { 
+    background-color: black;
+  color: white;
+  font-family: monospace;
+  text-align: center;
+}
+
+
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  margin-top:60px;
+  color:white;
+}
+
+.image {
+  height:auto;
+  width:1000px;
+  background-color:black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+  margin:auto;
+  border: 6px solid white;
+  z-index: 1;
+
+}
+
+.content {
+  background-image:url('');
+
+  padding: 10px;
+  border-radius: 6px;
+  border-color:white;
+  z-index: 1;
+}
+
+.marquee {
+ 
+ position: absolute;
+ z-index: -1;
+ margin: 10px;
+ border: 6px solid white;
+ background-color: transparent;
+ overflow: hidden;
+ display: flex;
+  
+}
+
+.marqueedown {
+ 
+ position: absolute;
+ z-index: -1;
+ margin: 10px;
+ border: 6px solid white;
+ background-color: transparent;
+ overflow: hidden;
+ display: flex;
+  
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+
+  body{
+    cursor: url('cursor.png'), auto;
+  }
+  
+a:hover{
+  cursor: url('cursorselect.png'), auto;
+}
+ 
+  textarea {
+   cursor: url('textcursor.png') auto;
+  }
